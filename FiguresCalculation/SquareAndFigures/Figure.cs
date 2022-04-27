@@ -71,18 +71,36 @@ namespace FiguresCalculation
         //Метод проверки на то, является ли треугольник прямоугольным
         public bool RectangularTriangle(Triangle triangle)
         {
-            bool isRectangularTriangle;
-            float perimeter = triangle.SideA + triangle.SideB + triangle.SideC;
-            float result = perimeter / 3;
+            bool isRectangularTriangle = false;
 
-            if(result != triangle.SideA)
+            float[] sidesArr = new float[]
             {
-                isRectangularTriangle = false;
-            }
+                triangle.SideA,
+                triangle.SideB,
+                triangle.SideC
+            };
 
-            else
+            float temp = sidesArr[0];
+            int correct = 0;
+
+            for (int i = 0; i < sidesArr.Length; i++)
             {
-                isRectangularTriangle = true;
+                if(sidesArr[i] == temp)
+                {
+                    temp = sidesArr[i];
+                    correct += 1;
+
+                    if(correct == sidesArr.Length)
+                    {
+                        isRectangularTriangle = true;
+                    }
+                }
+
+                else
+                {
+                    isRectangularTriangle = false;
+                    break;
+                }
             }
 
             return isRectangularTriangle;
