@@ -68,8 +68,22 @@ namespace FiguresCalculation
             resultVal = (int)result;
         }
 
-        //Метод проверки на то, является ли треугольник прямоугольным
         public bool RectangularTriangle(Triangle triangle)
+        {
+            float cosA = ((float)Math.Pow(triangle.SideA, 2) + (float)Math.Pow(triangle.SideC, 2) - (float)Math.Pow(triangle.SideB, 2)) /
+                (2 * triangle.SideA * triangle.SideC);
+
+            float cosB = ((float)Math.Pow(triangle.SideA, 2) + (float)Math.Pow(triangle.SideB, 2) - (float)Math.Pow(triangle.SideC, 2)) /
+                (2 * triangle.SideA * triangle.SideB);
+
+            float cosY = ((float)Math.Pow(triangle.SideB, 2) + (float)Math.Pow(triangle.SideC, 2) - (float)Math.Pow(triangle.SideA, 2)) /
+                (2 * triangle.SideC * triangle.SideB);
+
+            return true;
+        }
+
+        //Метод проверки равенство сторон треугольника (сделал как дополнительный механизм в библиотеке)
+        public bool EqualSidesTriangle(Triangle triangle)
         {
             bool isRectangularTriangle = false;
 

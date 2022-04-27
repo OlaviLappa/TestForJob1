@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\АДМИН\\source\\repos\\FiguresCalculation\\FiguresCalculation\\FiguresCalculation.csproj",
+      "projectUniqueName": "C:\\TestForJob1\\FiguresCalculation\\FiguresCalculation.csproj",
       "projectName": "FiguresCalculation",
-      "projectPath": "C:\\Users\\АДМИН\\source\\repos\\FiguresCalculation\\FiguresCalculation\\FiguresCalculation.csproj",
+      "projectPath": "C:\\TestForJob1\\FiguresCalculation\\FiguresCalculation.csproj",
       "packagesPath": "C:\\Users\\АДМИН\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\АДМИН\\source\\repos\\FiguresCalculation\\FiguresCalculation\\obj\\",
+      "outputPath": "C:\\TestForJob1\\FiguresCalculation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\АДМИН\\AppData\\Roaming\\NuGet\\NuGet.Config",

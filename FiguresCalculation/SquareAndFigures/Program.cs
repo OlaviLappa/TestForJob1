@@ -16,9 +16,9 @@ namespace FiguresCalculation
 
             Triangle triangle = new Triangle() //Создаём экземпляр класса Triangle (треугольник)
             {
-                SideA = 4,
-                SideB = 5,
-                SideC = 4
+                SideA = 5,
+                SideB = 3,
+                SideC = 3
             };
 
             /*Создание экземпляров класса, параметризирование их типами фигур и автоматический расчёт площади
@@ -43,8 +43,11 @@ namespace FiguresCalculation
             int resultCalculate2;
             figure2.CalculateTriangle(triangle, out resultCalculate2);
 
+            /*Проверка треугольника на равность сторон (доп. механизм)*/
+            bool resTriangle = figure2.EqualSidesTriangle(triangle);
+
             /*Проверка треугольника (на то, что он является прямоугольным)*/
-            bool resTriangle = figure2.RectangularTriangle(triangle);
+            bool resTriangle2 = figure2.RectangularTriangle(triangle);
 
 
             /*ДОБАВЛЕНИЕ НОВОЙ ФИГУРЫ
@@ -54,7 +57,7 @@ namespace FiguresCalculation
               мы реализуем в нём логику и просто вызываем на том же самом объекте во внешнем коде
              */
 
-            /*Квадрат*/ 
+            /*Квадрат*/
             Quad quad = new Quad()
             {
                 SideA = 10,
