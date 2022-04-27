@@ -68,8 +68,11 @@ namespace FiguresCalculation
             resultVal = (int)result;
         }
 
+        //Метод, который позволяет определить прямоугольный треугольник
         public bool RectangularTriangle(Triangle triangle)
         {
+            bool isRectangularTriangle = false;
+
             float cosA = ((float)Math.Pow(triangle.SideA, 2) + (float)Math.Pow(triangle.SideC, 2) - (float)Math.Pow(triangle.SideB, 2)) /
                 (2 * triangle.SideA * triangle.SideC);
 
@@ -79,13 +82,24 @@ namespace FiguresCalculation
             float cosY = ((float)Math.Pow(triangle.SideB, 2) + (float)Math.Pow(triangle.SideC, 2) - (float)Math.Pow(triangle.SideA, 2)) /
                 (2 * triangle.SideC * triangle.SideB);
 
-            return true;
+
+            if(cosA <= 0 || cosB <= 0 || cosY <= 0)
+            {
+                isRectangularTriangle = true;
+            }
+
+            else
+            {
+                isRectangularTriangle = false;
+            }
+
+            return isRectangularTriangle;
         }
 
-        //Метод проверки равенство сторон треугольника (сделал как дополнительный механизм в библиотеке)
+        //Метод проверки равенства сторон треугольника (сделал как дополнительный механизм в библиотеке)
         public bool EqualSidesTriangle(Triangle triangle)
         {
-            bool isRectangularTriangle = false;
+            bool isEqualsTriangle = false;
 
             float[] sidesArr = new float[]
             {
@@ -106,18 +120,18 @@ namespace FiguresCalculation
 
                     if(correct == sidesArr.Length)
                     {
-                        isRectangularTriangle = true;
+                        isEqualsTriangle = true;
                     }
                 }
 
                 else
                 {
-                    isRectangularTriangle = false;
+                    isEqualsTriangle = false;
                     break;
                 }
             }
 
-            return isRectangularTriangle;
+            return isEqualsTriangle;
         }
     }
 }

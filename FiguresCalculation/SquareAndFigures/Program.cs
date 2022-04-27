@@ -16,9 +16,9 @@ namespace FiguresCalculation
 
             Triangle triangle = new Triangle() //Создаём экземпляр класса Triangle (треугольник)
             {
-                SideA = 5,
-                SideB = 3,
-                SideC = 3
+                SideA = 2f,
+                SideB = 2.8f,
+                SideC = 2
             };
 
             /*Создание экземпляров класса, параметризирование их типами фигур и автоматический расчёт площади
