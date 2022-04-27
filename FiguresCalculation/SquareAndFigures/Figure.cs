@@ -83,7 +83,11 @@ namespace FiguresCalculation
                 (2 * triangle.SideC * triangle.SideB);
 
 
-            if(cosA <= 0 || cosB <= 0 || cosY <= 0)
+            double a = Math.Round(cosA, 2);
+            double b = Math.Round(cosB, 2);
+            double c = Math.Round(cosY, 2);
+
+            if (a == 0 || b == 0 || c == 0)
             {
                 isRectangularTriangle = true;
             }
