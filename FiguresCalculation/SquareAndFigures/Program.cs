@@ -14,10 +14,10 @@ namespace FiguresCalculation
                 Radius = 13
             };
 
-            Triangle triangle = new Triangle() //Создаём экземпляр класса Triangle (треугольник)
+            Triangle triangle = new Triangle() //Создаём экземпляр класса Triangle (треугольник (подобрал параметры, которые соответсвуют прямоугольному треугольнику, система выдает true))
             {
                 SideA = 2f,
-                SideB = 2.8f,
+                SideB = 2.824f,
                 SideC = 2
             };
 
