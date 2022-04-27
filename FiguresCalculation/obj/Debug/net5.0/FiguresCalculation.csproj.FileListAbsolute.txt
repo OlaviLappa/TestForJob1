@@ -1,0 +1,16 @@
+C:\Users\АДМИН\source\repos\FiguresCalculation\FiguresCalculation\bin\Debug\net5.0\FiguresCalculation.exe
+C:\Users\АДМИН\source\repos\FiguresCalculation\FiguresCalculation\bin\Debug\net5.0\FiguresCalculation.deps.json
+C:\Users\АДМИН\source\repos\FiguresCalculation\FiguresCalculation\bin\Debug\net5.0\FiguresCalculation.runtimeconfig.json
+C:\Users\АДМИН\source\repos\FiguresCalculation\FiguresCalculation\bin\Debug\net5.0\FiguresCalculation.runtimeconfig.dev.json
+C:\Users\АДМИН\source\repos\FiguresCalculation\FiguresCalculation\bin\Debug\net5.0\FiguresCalculation.dll
+C:\Users\АДМИН\source\repos\FiguresCalculation\FiguresCalculation\bin\Debug\net5.0\ref\FiguresCalculation.dll
+C:\Users\АДМИН\source\repos\FiguresCalculation\FiguresCalculation\bin\Debug\net5.0\FiguresCalculation.pdb
+C:\Users\АДМИН\source\repos\FiguresCalculation\FiguresCalculation\obj\Debug\net5.0\FiguresCalculation.csproj.AssemblyReference.cache
+C:\Users\АДМИН\source\repos\FiguresCalculation\FiguresCalculation\obj\Debug\net5.0\FiguresCalculation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\АДМИН\source\repos\FiguresCalculation\FiguresCalculation\obj\Debug\net5.0\FiguresCalculation.AssemblyInfoInputs.cache
+C:\Users\АДМИН\source\repos\FiguresCalculation\FiguresCalculation\obj\Debug\net5.0\FiguresCalculation.AssemblyInfo.cs
+C:\Users\АДМИН\source\repos\FiguresCalculation\FiguresCalculation\obj\Debug\net5.0\FiguresCalculation.csproj.CoreCompileInputs.cache
+C:\Users\АДМИН\source\repos\FiguresCalculation\FiguresCalculation\obj\Debug\net5.0\FiguresCalculation.dll
+C:\Users\АДМИН\source\repos\FiguresCalculation\FiguresCalculation\obj\Debug\net5.0\ref\FiguresCalculation.dll
+C:\Users\АДМИН\source\repos\FiguresCalculation\FiguresCalculation\obj\Debug\net5.0\FiguresCalculation.pdb
+C:\Users\АДМИН\source\repos\FiguresCalculation\FiguresCalculation\obj\Debug\net5.0\FiguresCalculation.genruntimeconfig.cache
