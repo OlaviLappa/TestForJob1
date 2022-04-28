@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FiguresCalculation
 {
-    class Circle
+    public class Circle
     {
         public float Radius { get; set; }
     }

@@ -10,7 +10,7 @@ namespace FiguresCalculation
     ///для работы с ним нужно создать классы треугольника и круга (уже созданы) и заполнить их свойствами,
     ///которые будут отвечать за их параметры
     
-    class Figure<T> : IFigure
+    public class Figure<T> : IFigure
     {
         private T newFigureObject { get; set; }
         private int _resultValue;

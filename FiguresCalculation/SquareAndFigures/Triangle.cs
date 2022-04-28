@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FiguresCalculation
 {
-    class Triangle
+    public class Triangle
     {
         public float SideA { get; set; }
         public float SideB { get; set; }
